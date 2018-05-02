@@ -14,7 +14,7 @@ let options =
     {
         path: path.resolve(__dirname, 'docs'),
         filename: 'main.js',
-        publicPath: '/'
+        publicPath: process.env.NODE_ENV == 'production' ? './' : '/',
     },
     module:
     {
