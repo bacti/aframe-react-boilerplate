@@ -12,7 +12,7 @@ let options =
     ],
     output:
     {
-        path: __dirname + '/.release',
+        path: __dirname + '/docs',
         filename: './js/main.js',
         publicPath: '/'
     },
