@@ -13,8 +13,8 @@ let options =
     output:
     {
         path: __dirname + '/docs',
-        filename: './js/main.js',
-        publicPath: '/'
+        filename: 'js/main.js',
+        publicPath: './'
     },
     module:
     {
