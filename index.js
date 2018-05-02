@@ -12,9 +12,9 @@ let options =
     ],
     output:
     {
-        path: __dirname + '/docs',
-        filename: 'js/main.js',
-        publicPath: './'
+        path: path.resolve(__dirname, 'docs'),
+        filename: 'main.js',
+        publicPath: '/'
     },
     module:
     {
